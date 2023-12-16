@@ -1,0 +1,336 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabeçalho*/
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    left: 0;
+    right: 0;
+    top:0;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.cabeçalho a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+.cabeçalho a:hover{
+    text-decoration: underline;
+}
+
+.cabeçalho img{
+    height: 60px;
+    width: 60px;
+    padding-right: 30%;
+    padding-left: 43%;
+    
+}
+
+/*main*/
+.inicio {
+    margin-top: 20%;
+    z-index: -1;
+    color: white;
+}
+.inicio  a{
+    background-color: rgb(207, 55, 46);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.inicio a:hover{
+    background-color: rgb(173, 2, 0);
+}
+.imageminicio img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    filter: brightness(50%);
+}
+.textosinicio{
+    margin-left: 50px;
+    width: 700px;
+    margin-left: 315px;
+}
+.textosinicio h1{
+    font-size: 70px; 
+}
+.textosinicio p{
+    font-size: 20px;
+}
+
+/*novidades*/
+.headnovidades {
+    display: flex;
+    justify-content: center;
+    margin-right: 48%;
+}
+.novidades{
+    margin-top: 15%;
+    margin-bottom: 6%;
+}
+.novidadesgrandes{
+    display: flex;
+    justify-content: center;
+}
+.novidadeg1 {
+    display: flex;
+    justify-content: center;
+}
+.novidadeg1 h2{
+    color: white;
+    position: absolute;
+    margin-top: 16%;
+    font-size: 20px;
+    width: 600px;
+}
+.novidadeg1 img{
+    height: 400px;
+    margin-right: 15px;
+    filter: brightness(50%);
+}
+.novidadeg2 {
+    display: flex;
+    justify-content: center;
+}
+.novidadeg2 img{
+    height: 400px;
+    margin-right: 15px;
+    filter: brightness(50%);
+}
+.novidadeg2 h2{
+    color: white;
+    position: absolute;
+    margin-top: 16%;
+    font-size: 20px;
+    width: 300px;
+}
+.novidadeg3 {
+    display: flex;
+    justify-content: center;
+}
+.novidadeg3 img{
+    height: 195px;
+    width: 300px;
+    filter: brightness(50%);
+}
+.novidadeg3 h2{
+    color: white;
+    position: absolute;
+    margin-top: 4%;
+    font-size: 20px;
+    width: 200px;
+    margin-left: -70px;
+}
+.novidadeg4{
+    display: flex;
+    justify-content: center;
+
+}
+.novidadeg4 img{
+    height: 180px;
+    width: 300px;
+    filter: brightness(50%);
+    margin-top: 24px;
+
+}
+.novidadeg4 h2{
+    color: white;
+    position: absolute;
+    margin-top: 5%;
+    font-size: 20px;
+    width: 250px;
+    margin-left: -20px;
+}
+.novidadespequenas {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.novidadespequenas .novidade1 {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    
+}
+.novidadespequenas .novidade1 p{
+    letter-spacing: 5px;
+    
+}
+.novidade1Info {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.novidade1Info span{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.novidadespequenas .novidade2 {
+    display: flex;
+    align-items: center;
+    width: 305px;
+
+}
+.novidadespequenas .novidade2 p{
+    letter-spacing: 5px;
+}
+
+.novidade2Info{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.novidade2Info span{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.novidadespequenas .novidade3 {
+    display: flex;
+    align-items: center;
+    width: 310px;
+    margin-right: 10px;
+}
+.novidadespequenas .novidade3 p{
+    letter-spacing: 5px;
+}
+.novidade3Info{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.novidade3Info span{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.novidadespequenas .novidade4 {
+    display: flex;
+    align-items: center;
+    width: 320px;
+}
+.novidadespequenas .novidade4 p{
+    letter-spacing: 5px;
+}
+.novidade4Info{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.novidade4Info span{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.headnovidades h1{
+    font-size: 50px;
+}
+.novidadespequenas img{
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+/*jupter anuncio*/
+.jupiteranuncio {
+    color: white;
+    height: 800px;
+    display: flex;
+}
+.jupiteranuncio a{
+    background-color: rgb(207, 55, 46);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.jupiteranuncio a:hover {
+    background-color: rgb(173, 2, 0);
+}
+.jupiteranuncio img {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    filter: brightness(50%);
+}
+.jupiterTexto {
+    margin-top: 150px;
+    margin-left: 315px;
+    width: 700px;
+}
+.jupiterTexto h1{
+    font-size: 70px; 
+}
+.jupiterTexto p{
+    font-size: 20px;
+}
+
+/*Rodapé*/
+footer {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-bottom: 100%;
+    padding: 50px;
+    color: white;
+}
+footer img{
+    height: 60px;
+    width: 60px;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.rodapeinfo {
+    display: flex;
+    justify-content: center;
+}
+.descricaonasa {
+    width: 350px;
+}
+.descricaonasa p{
+    color: gray;
+}
+.rodapenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.rodapenav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.rodapenav a:hover{
+   text-decoration:underline;
+}
+.redesnasa {
+    margin-left: 100px;
+    color: grey;
+}
+.redesnasa a{
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}

@@ -1,0 +1,166 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Cabeçalho*/
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    left: 0;
+    right: 0;
+    top:0;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.cabeçalho a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+.cabeçalho a:hover{
+    text-decoration: underline;
+}
+.cabeçalho img{
+    height: 60px;
+    width: 60px;
+    padding-right: 30%;
+    padding-left: 43%;
+}
+
+/*main*/
+.form {
+    display: flex;
+    justify-content: center;
+}
+.formBackground {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    height: 892px;
+}
+.formText {
+    color: white;
+    margin-top: 300px;
+    width: 500px;
+    margin-right: 100px;
+}
+.formText h1{
+    font-size: 50px;
+}
+.formText p{
+    font-size: 20px;
+}
+.jupiterForm {
+    margin-top: 300px;
+    width: 400px;
+    color: white;
+
+}
+.jupiterForm a{
+    text-decoration: none;
+    color: rgb(158, 187, 212);
+}
+.jupiterForm a:hover{
+    text-decoration: underline;
+}
+.jupiterForm input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    background-color: rgb(79, 94, 137);
+    color: white;
+    font-size: large;
+}
+.jupiterForm select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    background-color: rgb(79, 94, 137);
+    color: white;
+    font-size: large;
+}
+.jupiterForm button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    border: none;
+    height: 50px;
+    background-color: rgb(174, 0, 0);
+    color: white;
+    font-size: large;
+}
+.jupiterForm button:hover{
+    background-color: rgb(188, 0, 0);
+}
+
+/*Rodapé*/
+footer {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 6%;
+    padding: 50px;
+    color: white;
+}
+footer img{
+    height: 60px;
+    width: 60px;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.rodapeinfo {
+    display: flex;
+    justify-content: center;
+}
+.descricaonasa {
+    width: 350px;
+}
+.descricaonasa p{
+    color: gray;
+}
+.rodapenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.rodapenav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.rodapenav a:hover{
+   text-decoration:underline;
+}
+.redesnasa {
+    margin-left: 100px;
+    color: grey;
+}
+.redesnasa a{
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
